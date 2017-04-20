@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "version": "0.1.0",
+  "name": "Workspace Pro",
+  "short_name": "Workspaces",
+  
+  "background": {
+    "scripts": ["resources/jquery.js", "app/background.js"]
+  },
+  
+  "icons": {
+    "16": "app/assets/icon.png",
+    "32": "app/assets/icon.png",
+    "64": "app/assets/icon.png",
+    "128": "app/assets/icon.png"
+  },
+  
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  
+  "web_accessible_resources": [
+    "http://*/*",
+    "https://*/*"
+  ]
+}
